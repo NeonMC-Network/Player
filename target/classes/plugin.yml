@@ -1,0 +1,30 @@
+main: me.naptie.bukkit.player.Main
+name: NeonPlayer
+version: 2.0.0
+api-version: "1.15"
+author: Naptie
+authors: [Naptie, yuanlu]
+
+softdepend:
+  - NeonParkour
+
+commands:
+  profile:
+    usage: /<command> [player|edit]
+    aliases: [pf, profilemenu, myprofile, pfmenu]
+    description: View or edit one's profile.
+
+  language:
+    usage: /<command> [language]
+    aliases: [lang, yuyan, gengo]
+    description: Adjust your language settings.
+
+  experience:
+    usage: /<command> [language]
+    aliases: [exp, point]
+    description: Edit one's experience point.
+
+  playerstatistics:
+      usage: /<command> [total|gender|age|rank|language]
+      aliases: [player, playerstatistics, players, playerstats]
+      description: View the statistics of players.

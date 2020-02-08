@@ -1,0 +1,64 @@
+email:
+  time-format:
+    en-GB: "HH:mm:ss, dd/MM/yyyy"
+    en-US: "HH:mm:ss, MM/dd/yyyy"
+    zh-CN: "yyyy/MM/dd HH:mm:ss"
+  cool-down-time: 60000
+  effective-time: 300000
+  email-address: username@qq.com
+  password: password
+languages:
+  - en-GB
+  - en-US
+  - zh-CN
+update-language-files: true
+
+data-path: E:\Minecraft\Servers\NeonMC\PlayerData
+auto-detect: true
+mysql:
+  enable: false
+friends:
+  enable: false
+  debug: false
+  username: username
+  password: password
+  address: localhost
+  database: neonmc
+  timezone: CST
+  useSSL: false
+
+default:
+  name:
+  rank: MEMBER
+  language: en-US
+  gender: UNSET
+  birth-year: UNSET
+  point: 0
+  email-verified: false
+  email: example@example.net
+  ip:
+   - 0.0.0.0
+  parkour-records:
+    lobby:
+    skywars:
+    bedwars:
+    thebridge:
+    skyblock:
+  skywars:
+    wins: 0
+    kills: 0
+    deaths: 0
+  bedwars:
+    wins: 0
+    kills: 0
+    deaths: 0
+    beds-broken: 0
+  thebridge:
+    wins: 0
+    kills: 0
+    deaths: 0
+    scores: 0
+  skyblock:
+    blocks-placed: 0
+    blocks-broken: 0
+    days: 0
